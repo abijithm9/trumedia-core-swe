@@ -1,0 +1,21 @@
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+
+    .img {
+        width: '60px';
+        height: '60px';
+        animation: 'spin 1s linear infinite';
+    }
+  }
